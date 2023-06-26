@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+font-family: 'Ysabeau Infant', sans-serif;
+`;
 
 export const Header = styled.div`
-  background-color: blue;
+  background-color: #008B8B;
   height: 150px;
   text-align: center;
 `;

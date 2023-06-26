@@ -1,11 +1,13 @@
 import * as S from "./styles";
-import { Item } from "../../types/Item";
-import { TableItem } from "./TableItem";
+import { Item } from '../../types/Item';
+import { TableItem } from '../TableItem';
 
 type Props = {
-  list: Item[];
-};
-export function TableArea({ list }: Props) {
+    list: Item[]
+}
+
+export const TableArea = ({ list }: Props) => {
+  
   return (
     <S.Table>
       <thead>
@@ -23,4 +25,4 @@ export function TableArea({ list }: Props) {
       </tbody>
     </S.Table>
   );
-}
+};

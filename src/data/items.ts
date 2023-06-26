@@ -2,33 +2,33 @@ import { Item } from "../types/Item";
 
 export const items: Item[] = [
   {
-    date: new Date(2023, 5, 6),
-    category: "Comida",
+    date: new Date(2023, 5, 2),
+    category: "despesa",
     title: "Spoleto",
-    price: 20.0,
+    value: 20.0,
   },
   {
-    date: new Date(2023, 5, 10),
-    category: "Renda",
+    date: new Date(2023, 6, 8),
+    category: "renda",
     title: "Salário",
-    price: 4500.0,
+    value: 4500.0,
   },
   {
-    date: new Date(2023, 5, 10),
-    category: "Comida",
+    date: new Date(2023, 6, 10),
+    category: "despesa",
     title: "Mercado",
-    price: 150.0,
+    value: 150.0,
   },
   {
-    date: new Date(2023, 5, 15),
-    category: "Despesas",
+    date: new Date(2023, 6, 15),
+    category: "despesa",
     title: "Aluguel",
-    price: 1200.0,
+    value: 1200.0,
   },
   {
-    date: new Date(2023, 5, 20),
-    category: "Lazer",
+    date: new Date(2023, 6, 20),
+    category: "despesa",
     title: "Festival",
-    price: 100.0,
+    value: 100.0,
   },
 ];
